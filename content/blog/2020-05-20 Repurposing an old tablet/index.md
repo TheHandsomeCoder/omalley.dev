@@ -24,6 +24,22 @@ A breif search of reddit and XDA Developers indicated that the custom recovery I
     >On your device, go into Settings -> About and find the Build Number and tap on it 7 times to enable developer settings. Press back and go into Developer Options and enable USB debugging.
 * Open a terminal and use adb to reboot to the bootloader `adb reboot bootloader`
 * Use fastboot to flash the image `fastboot flash recovery twrp.img`
-* Restart tablet back into recovery (If you miss this step you will need to flash TWRP again)
+* Then use the on screen commands to reboot to recovery, this should allow you to boot TWRP.
+
+## Installing the custom rom
+Next we're going to install the custom rom. For this we need to downloaded [Slimrom for the Nexus 9](https://slimroms.org/#/device/flounder) and a copy of the [open source google apps](https://opengapps.org/). I've elected to go with pico as it's the smallest available to get the play store working.
+
+* In TWRP, go to `Wipe -> Format Data`, this will remove the encryption on the data partition. 
+* Go to `Advanced Wipe` and wipe all partitions
+* In a terminal on your computer use adb to transfer over the slimrom and gapps images. 
+    * `./adb push slimrom.zip /sdcard`
+    * `./adb push gapps.zip /sdcard`
+* In TWRP flash slimrom and then gapps
+* Restart the tablet and it should now boot into slimrom.
+
+
+
+
+
 
 
