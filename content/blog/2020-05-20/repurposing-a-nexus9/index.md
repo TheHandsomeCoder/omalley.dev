@@ -1,5 +1,5 @@
 ---
-title: Repurposing a Nexus 9 to watch streams on Discord (WIP)
+title: Repurposing a Nexus 9 to watch streams on Discord
 date: "2020-05-20"
 description: Can we reuse old technology for a single purpose
 ---
