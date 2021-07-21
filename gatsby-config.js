@@ -3,7 +3,7 @@ module.exports = {
     title: `O'Malley.dev`,
     author: {
       name: `Scott O'Malley`,
-      summary: `who writes code, loves his dog and is attempting to learn Portuguese`,
+      summary: `who writes code, loves his dog and is attempting to learn Portuguese. (Spelling mistakes are my own)`,
     },
     description: `O'Malleys Musings.`,
     siteUrl: `https://omalley.dev`,
@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   plugins: [
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -50,12 +51,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     //trackingId: `ADD YOUR TRACKING ID HERE`,
+    //   },
+    // },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
