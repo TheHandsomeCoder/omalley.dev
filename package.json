@@ -4,7 +4,7 @@
   "description": "The internals behind omalley.dev",
   "version": "0.1.0",
   "author": "Scott O'Malley",
-  "engines": {"node": "^16.0.0"},
+  "engines": {"node": "16.x"},
   "dependencies": {
     "gatsby": "^3.10.0",
     "gatsby-image": "^3.10.0",
