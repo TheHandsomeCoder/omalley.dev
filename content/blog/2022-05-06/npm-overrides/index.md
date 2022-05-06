@@ -4,7 +4,6 @@ date: 2022-05-06T22:30:00Z
 description: TIL I can replace nested npm dependancies
 tags: [nodejs, npm, thingy52]
 ---
-# Fixing a broken dependancy with npm overrides
 
 Hey! recently I've been putting together a small program to track the temprature inside of a hand-me-down fridge. I'd planned to use my [Nordic Thingy52](https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-52) as it has all the sensors I need plus it's own power source, but unfortunately I found that it's NodeJS reference implementation was built with an [abandoned Bluetooth Low Energy library](https://github.com/noble/noble) which had stopped working with OSX after High Sierra. 
 
