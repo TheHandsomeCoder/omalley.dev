@@ -1,7 +1,7 @@
 ---
-title: Fixing a broken dependancy with npm overrides
+title: Fixing a broken dependency with npm overrides
 date: 2022-05-06T22:30:00Z
-description: TIL I can replace nested npm dependancies
+description: TIL I can replace nested npm dependencies
 tags: [nodejs, npm, thingy52]
 ---
 
