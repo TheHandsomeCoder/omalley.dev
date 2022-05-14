@@ -5,7 +5,7 @@ description: TIL I can replace nested npm dependencies
 tags: [nodejs, npm, thingy52, npm-overrides, overrides]
 ---
  
-Hey! Recently I've been putting together a small program to track the temperature inside of a hand-me-down fridge. I'd planned to use my [Nordic Thingy52](https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-52) as it has all the sensors I need plus its own power source, but unfortunately I found that it's NodeJS reference implementation was built with an [abandoned Bluetooth Low Energy library](https://github.com/noble/noble) which has stopped working with OSX after High Sierra.
+Hey! Recently I've been putting together a small program to track the temperature inside of a hand-me-down fridge. I'd planned to use my [Nordic Thingy52](https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-52) as it has all the sensors I need plus its own power source, but unfortunately I found that its NodeJS reference implementation was built with an [abandoned Bluetooth Low Energy library](https://github.com/noble/noble) which has stopped working with OSX after High Sierra.
  
 ```
 Error: Cannot find module 'xpc-connection'
