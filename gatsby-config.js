@@ -58,6 +58,12 @@ module.exports = {
         trackingIds: [
           "G-T19X6Y6KXM", // Google Analytics / GA
         ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          // Setting this parameter is also optional
+          respectDNT: true,
+          send_page_view: true         
+        },
       },
     },
     `gatsby-plugin-feed`,
